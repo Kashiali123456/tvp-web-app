@@ -1,0 +1,172 @@
+.LSC{
+background: url(../backgroundfoods.png);
+
+}
+.homepic1 {
+    width: 100%;
+}
+.homepic2 {
+    width: 100%;
+}
+.hmrow{
+    padding: 40px
+}
+.descsection{
+padding: 30px 0px 60px;
+}
+.descsection h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+}
+.descsection-btn h4{
+color: #E35F21;
+font-family: 'Jost', sans-serif;
+}
+.descsection-btn img {
+    width: 100%;
+}
+
+
+/*Recommendation sections*/
+.REC {
+    padding: 60px;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+  /* food item box */
+.fooditemrow{
+    display: flex;
+    column-gap: 75px;
+}
+
+  .foodbox{
+    border-radius: 10px;
+    box-shadow: rgb(193 112 53 / 35%) 0px 5px 15px;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .foodbox h3 {
+    color: #E35F21;
+    font-weight: 700;
+    font-size: 28px;
+}
+.foodboximg {
+    width: 60%;
+}
+
+.foodcartbox {
+    width: 40px;    
+}
+.boxOrder {
+    color: #E35F21;
+    background: transparent;
+    border: #E35F21 2px solid;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family:    'Jost', sans-serif;;
+}
+/*Recommendation sections*/
+
+
+
+/* modal popUp */
+.popFoodDesc {
+    text-align: center;
+}
+.popFoodDesc h3 {
+    color: #E35F21;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: left;
+}
+
+
+.addons h3 {
+    text-align: center;
+}
+
+
+.addonimg{
+    width: 100%;
+}
+
+.plusminusdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plusMinus {
+    color: white;
+    background: #e35f21;
+    border: none;
+    border-radius: 20px;
+    padding: 0px 10px 3px 13px;
+    font-size: 21px;
+    margin-inline: 20px;
+}
+.itemcount{
+    font-family:    'Jost', sans-serif;
+    font-size: 22px;
+    margin: 0;
+}
+.modalATC {
+    font-family:    'Jost', sans-serif;
+    color: white;
+    background: #e35f21;
+    border: none;
+    border-radius: 13px;
+    font-size: 16px;
+    padding: 5px 23px;
+    font-weight: 700;
+}
+
+
+
+
+@media only screen and (max-width: 1440px) {
+    .descsection h2{
+        font-size: 38px;
+    }
+    .descsection {
+        padding: 30px 0px 10px;
+    }
+
+    .boxOrder {
+        font-size: 18px;
+    }
+    .fooditemrow {
+        column-gap: 55px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+.fooditemrow {
+    column-gap: 50px;
+}
+.boxOrder {
+    font-size: 16px;
+}
+}
+@media only screen and (max-width: 1153px) {
+.fooditemrow {
+    column-gap: 0px;
+}
+.boxOrder {
+    font-size: 18px;
+}
+}
+@media only screen and (max-width: 1024px) {
+    .descsection {
+        padding: 10px 0px 0px;
+    }
+    .descsection h2 {
+        font-size: 28px;
+    }
+}
